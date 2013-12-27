@@ -20,16 +20,11 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Release name
 PRODUCT_RELEASE_NAME := p3110
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1024
-TARGET_SCREEN_WIDTH := 600
-
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-# Inherit from our custom product configuration
+# Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
+
 # Inherit device configuration
-$(call inherit-product, device/samsung/p3110/device.mk)
+$(call inherit-product, device/samsung/p3110/full_p3110.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p3110
