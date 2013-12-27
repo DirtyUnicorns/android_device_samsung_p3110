@@ -1,4 +1,5 @@
 #
+# Copyright (C) 2013 OmniROM Project
 # Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,9 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := p3110
