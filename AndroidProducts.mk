@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_p3110.mk
+    $(LOCAL_DIR)/du.mk

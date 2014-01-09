@@ -1,1 +1,1 @@
-add_lunch_combo omni_p3110-userdebug
+add_lunch_combo du_p3110-userdebug
