@@ -15,7 +15,8 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit common DU configurations
+$(call inherit-product, vendor/du/config/common_tablet.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
